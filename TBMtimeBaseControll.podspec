@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "TBMtimeBaseControll/**/*.swift"
 
   # 排除对外引用的文件
-  spec.exclude_files = "TBMtimeBaseControll/AppDelegate.swift","MtimeBaseControll/ViewController.swift"
+  spec.exclude_files = "TBMtimeBaseControll/AppDelegate.swift","TBMtimeBaseControll/ViewController.swift","TBMtimeBaseControll/Exclude/ExcludeVC.swift"
 
   # 头文件 目前发现这个没啥卵用 先废弃
   # spec.public_header_files = "Classes/**/*.h"
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   
 
   # 当前项目所依赖的第三方库 都需要对外暴露
-  #spec.dependency "Alamofire", "5.2.1"
+  spec.dependency "Alamofire", "5.2.1"
   #spec.dependency "Kingfisher", "5.14.0"
 
 end
