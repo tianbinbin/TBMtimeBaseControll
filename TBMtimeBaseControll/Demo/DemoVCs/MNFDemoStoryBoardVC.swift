@@ -8,8 +8,8 @@
 import UIKit
 import Foundation
 
-class MNFDemoStoryBoardVC: MNFBaseViewController {
-    override func viewDidLoad() {
+ open class MNFDemoStoryBoardVC: MNFBaseViewController {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         print("当前页面为stroyboard创建")

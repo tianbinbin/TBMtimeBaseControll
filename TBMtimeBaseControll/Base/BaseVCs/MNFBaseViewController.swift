@@ -16,19 +16,24 @@ import Foundation
 open class MNFBaseViewController:MTBViewController {
     
     lazy var imageView:UIImageView = {
+        
+        /// 组件话开发离不开bundle
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 300, height: 150))
-        imageView.image = UIImage(named: "Retro")
-        imageView.backgroundColor = .orange
-        imageView.isHidden = true
-        view.addSubview(imageView)
+        if let path = Bundle(for: MNFBaseViewController.self).path(forResource: "TBMtimeBaseControll", ofType: "bundle") {
+            let bundle = Bundle(path: path)!
+            
+            let image = UIImage(named: "beijing", in: bundle, compatibleWith: nil)
+            imageView.image = image
+            imageView.backgroundColor = .orange
+            imageView.isHidden = true
+            view.addSubview(imageView)
+        }
         return imageView
     }()
     
     open override func viewDidLoad() {
         super.viewDidLoad()
     
-        
-        
     }
 }
 
