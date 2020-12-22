@@ -23,6 +23,8 @@
 		085452602591E0D900E22902 /* motuo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0854525F2591E0D900E22902 /* motuo1.jpg */; };
 		085452672591E24100E22902 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085452662591E24100E22902 /* Demo.storyboard */; };
 		0854526F2591E28100E22902 /* MNFDemoStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */; };
+		085452E82591E6DB00E22902 /* shanghai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085452E62591E6DB00E22902 /* shanghai@3x.png */; };
+		085452E92591E6DB00E22902 /* shanghai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085452E72591E6DB00E22902 /* shanghai@2x.png */; };
 		F7BD5370BCF5DEF7FD4826C9 /* Pods_TBMtimeBaseControll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FBB3A62D635F7317D16EF /* Pods_TBMtimeBaseControll.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		0854525F2591E0D900E22902 /* motuo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motuo1.jpg; sourceTree = "<group>"; };
 		085452662591E24100E22902 /* Demo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
 		0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNFDemoStoryBoardVC.swift; sourceTree = "<group>"; };
+		085452E62591E6DB00E22902 /* shanghai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanghai@3x.png"; sourceTree = "<group>"; };
+		085452E72591E6DB00E22902 /* shanghai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanghai@2x.png"; sourceTree = "<group>"; };
 		7EA332F23ECCE9D5D8C66541 /* Pods-TBMtimeBaseControll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMtimeBaseControll.release.xcconfig"; path = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.release.xcconfig"; sourceTree = "<group>"; };
 		7FB4FF73325941077E4E4DD6 /* Pods-TBMtimeBaseControll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMtimeBaseControll.debug.xcconfig"; path = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6FBB3A62D635F7317D16EF /* Pods_TBMtimeBaseControll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBMtimeBaseControll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +148,7 @@
 		0854512E2591C7C400E22902 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				085452F32591E73E00E22902 /* Extention */,
 				085452092591DB3800E22902 /* Base */,
 				0854512F2591C7C400E22902 /* CommonEnume */,
 				085451312591C7C400E22902 /* NetRquest */,
@@ -197,6 +202,8 @@
 		085452592591DF7300E22902 /* ImageResource */ = {
 			isa = PBXGroup;
 			children = (
+				085452E72591E6DB00E22902 /* shanghai@2x.png */,
+				085452E62591E6DB00E22902 /* shanghai@3x.png */,
 				0854525F2591E0D900E22902 /* motuo1.jpg */,
 				0854525A2591E0CF00E22902 /* Retro.jpg */,
 			);
@@ -218,6 +225,13 @@
 				0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */,
 			);
 			path = DemoVCs;
+			sourceTree = "<group>";
+		};
+		085452F32591E73E00E22902 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 		5AB90C93165D11DA521926EC /* Frameworks */ = {
@@ -344,10 +358,12 @@
 			files = (
 				0854525B2591E0CF00E22902 /* Retro.jpg in Resources */,
 				085452602591E0D900E22902 /* motuo1.jpg in Resources */,
+				085452E82591E6DB00E22902 /* shanghai@3x.png in Resources */,
 				08544F43259190E000E22902 /* LaunchScreen.storyboard in Resources */,
 				08544F40259190E000E22902 /* Assets.xcassets in Resources */,
 				08544F3B259190DF00E22902 /* Main.storyboard in Resources */,
 				085452672591E24100E22902 /* Demo.storyboard in Resources */,
+				085452E92591E6DB00E22902 /* shanghai@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
