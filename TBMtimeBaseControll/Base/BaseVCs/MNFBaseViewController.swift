@@ -14,8 +14,21 @@ import UIKit
 import Foundation
 
 open class MNFBaseViewController:MTBViewController {
+    
+    lazy var imageView:UIImageView = {
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 300, height: 150))
+        imageView.image = UIImage(named: "Retro")
+        imageView.backgroundColor = .orange
+        imageView.isHidden = true
+        view.addSubview(imageView)
+        return imageView
+    }()
+    
     open override func viewDidLoad() {
         super.viewDidLoad()
+    
+        
+        
     }
 }
 
@@ -29,6 +42,11 @@ extension MNFBaseViewController {
     /// 2、0 页面的跳转 不要用系统的
     open func pushToVC(_ vc:UIViewController?, _ boolAnimate:Bool?) {
         print("跳转到下一个页面")
+    }
+    
+    /// 3、0 显示图片
+    open func showImageView(){
+        imageView.isHidden = !(imageView.isHidden)
     }
 }
 

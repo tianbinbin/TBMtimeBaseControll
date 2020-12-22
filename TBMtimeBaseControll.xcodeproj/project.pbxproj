@@ -19,6 +19,10 @@
 		085451392591C7C400E22902 /* MtimeBaseControllHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085451342591C7C400E22902 /* MtimeBaseControllHeader.swift */; };
 		0854522C2591DB3900E22902 /* MTBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854520B2591DB3800E22902 /* MTBViewController.swift */; };
 		085452352591DB3900E22902 /* MNFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854521C2591DB3800E22902 /* MNFBaseViewController.swift */; };
+		0854525B2591E0CF00E22902 /* Retro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0854525A2591E0CF00E22902 /* Retro.jpg */; };
+		085452602591E0D900E22902 /* motuo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0854525F2591E0D900E22902 /* motuo1.jpg */; };
+		085452672591E24100E22902 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085452662591E24100E22902 /* Demo.storyboard */; };
+		0854526F2591E28100E22902 /* MNFDemoStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */; };
 		F7BD5370BCF5DEF7FD4826C9 /* Pods_TBMtimeBaseControll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FBB3A62D635F7317D16EF /* Pods_TBMtimeBaseControll.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +60,10 @@
 		085451342591C7C400E22902 /* MtimeBaseControllHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MtimeBaseControllHeader.swift; sourceTree = "<group>"; };
 		0854520B2591DB3800E22902 /* MTBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTBViewController.swift; sourceTree = "<group>"; };
 		0854521C2591DB3800E22902 /* MNFBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNFBaseViewController.swift; sourceTree = "<group>"; };
+		0854525A2591E0CF00E22902 /* Retro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Retro.jpg; sourceTree = "<group>"; };
+		0854525F2591E0D900E22902 /* motuo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motuo1.jpg; sourceTree = "<group>"; };
+		085452662591E24100E22902 /* Demo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
+		0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNFDemoStoryBoardVC.swift; sourceTree = "<group>"; };
 		7EA332F23ECCE9D5D8C66541 /* Pods-TBMtimeBaseControll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMtimeBaseControll.release.xcconfig"; path = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.release.xcconfig"; sourceTree = "<group>"; };
 		7FB4FF73325941077E4E4DD6 /* Pods-TBMtimeBaseControll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMtimeBaseControll.debug.xcconfig"; path = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6FBB3A62D635F7317D16EF /* Pods_TBMtimeBaseControll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBMtimeBaseControll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +118,8 @@
 		08544F32259190DF00E22902 /* TBMtimeBaseControll */ = {
 			isa = PBXGroup;
 			children = (
+				085452642591E21300E22902 /* Demo */,
+				085452592591DF7300E22902 /* ImageResource */,
 				0854512E2591C7C400E22902 /* Common */,
 				0854512C2591C7C400E22902 /* Exclude */,
 				08544F33259190DF00E22902 /* AppDelegate.swift */,
@@ -182,6 +192,32 @@
 				0854521C2591DB3800E22902 /* MNFBaseViewController.swift */,
 			);
 			path = BaseVCs;
+			sourceTree = "<group>";
+		};
+		085452592591DF7300E22902 /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				0854525F2591E0D900E22902 /* motuo1.jpg */,
+				0854525A2591E0CF00E22902 /* Retro.jpg */,
+			);
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		085452642591E21300E22902 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				085452652591E21800E22902 /* DemoVCs */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		085452652591E21800E22902 /* DemoVCs */ = {
+			isa = PBXGroup;
+			children = (
+				085452662591E24100E22902 /* Demo.storyboard */,
+				0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */,
+			);
+			path = DemoVCs;
 			sourceTree = "<group>";
 		};
 		5AB90C93165D11DA521926EC /* Frameworks */ = {
@@ -306,9 +342,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0854525B2591E0CF00E22902 /* Retro.jpg in Resources */,
+				085452602591E0D900E22902 /* motuo1.jpg in Resources */,
 				08544F43259190E000E22902 /* LaunchScreen.storyboard in Resources */,
 				08544F40259190E000E22902 /* Assets.xcassets in Resources */,
 				08544F3B259190DF00E22902 /* Main.storyboard in Resources */,
+				085452672591E24100E22902 /* Demo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +422,7 @@
 				085451392591C7C400E22902 /* MtimeBaseControllHeader.swift in Sources */,
 				085451372591C7C400E22902 /* CommonEnume.swift in Sources */,
 				08544F34259190DF00E22902 /* AppDelegate.swift in Sources */,
+				0854526F2591E28100E22902 /* MNFDemoStoryBoardVC.swift in Sources */,
 				085452352591DB3900E22902 /* MNFBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
