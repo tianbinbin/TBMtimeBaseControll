@@ -25,6 +25,7 @@
 		0854526F2591E28100E22902 /* MNFDemoStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */; };
 		085452E82591E6DB00E22902 /* shanghai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085452E62591E6DB00E22902 /* shanghai@3x.png */; };
 		085452E92591E6DB00E22902 /* shanghai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085452E72591E6DB00E22902 /* shanghai@2x.png */; };
+		0854544D2591ECAD00E22902 /* BundleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854544C2591ECAD00E22902 /* BundleExtention.swift */; };
 		F7BD5370BCF5DEF7FD4826C9 /* Pods_TBMtimeBaseControll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FBB3A62D635F7317D16EF /* Pods_TBMtimeBaseControll.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		0854526E2591E28100E22902 /* MNFDemoStoryBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNFDemoStoryBoardVC.swift; sourceTree = "<group>"; };
 		085452E62591E6DB00E22902 /* shanghai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanghai@3x.png"; sourceTree = "<group>"; };
 		085452E72591E6DB00E22902 /* shanghai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shanghai@2x.png"; sourceTree = "<group>"; };
+		0854544C2591ECAD00E22902 /* BundleExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtention.swift; sourceTree = "<group>"; };
 		7EA332F23ECCE9D5D8C66541 /* Pods-TBMtimeBaseControll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMtimeBaseControll.release.xcconfig"; path = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.release.xcconfig"; sourceTree = "<group>"; };
 		7FB4FF73325941077E4E4DD6 /* Pods-TBMtimeBaseControll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMtimeBaseControll.debug.xcconfig"; path = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6FBB3A62D635F7317D16EF /* Pods_TBMtimeBaseControll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBMtimeBaseControll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +232,7 @@
 		085452F32591E73E00E22902 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				0854544C2591ECAD00E22902 /* BundleExtention.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08544F3E259190DF00E22902 /* TBMtimeBaseControll.xcdatamodeld in Sources */,
+				0854544D2591ECAD00E22902 /* BundleExtention.swift in Sources */,
 				085451362591C7C400E22902 /* ExcludeVC.swift in Sources */,
 				08544F38259190DF00E22902 /* ViewController.swift in Sources */,
 				085451382591C7C400E22902 /* MNRNetRequset.swift in Sources */,
