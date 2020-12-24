@@ -3,61 +3,125 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B7B37DA305C1B242374C35AF1D7DDDC /* Pods-TBMtimeBaseControll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAECC94D61DE3ECE47A240EF1000219 /* Pods-TBMtimeBaseControll-dummy.m */; };
-		EC1282DE8D41A0A93388733AC33ACFC8 /* Pods-TBMtimeBaseControll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDA778D409F2F83BF8269FAF6A0FC92 /* Pods-TBMtimeBaseControll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECB52F83B9E717637FABB6954B8DF575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3D40B5A0493AD57A3F39C214A194AADF /* Pods-TBMtimeBaseControll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDA778D409F2F83BF8269FAF6A0FC92 /* Pods-TBMtimeBaseControll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F444061C25900B6FFE6E59FBCBF212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B23B0B9A1565E2FF353BF824A419F68A /* Pods-TBMtimeBaseControll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAECC94D61DE3ECE47A240EF1000219 /* Pods-TBMtimeBaseControll-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48E2F9CEF459E7058A3E175773067A3B /* PBXContainerItemProxy */ = {
+		08C2E43C96B78928C923378208489309 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E8E51EC61D7F8AD691517CA2FD324514 /* Alamofire.xcodeproj */;
+			containerPortal = E9D66A501587273AA8CC7846B05A0D39 /* RxRelay.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 564FA919E05BFD512DA9163BAB640EEE;
+			remoteInfo = RxRelay;
+		};
+		1C9C87F89FB9DBD061D2DC08426A3E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EC114B603A86F027BD9377A1C068F05 /* RxGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 761EDC2D01B03DA09BA153A91621384F;
+			remoteInfo = RxGesture;
+		};
+		5FD39E4BDE0B86DEE958E7B878C0A52D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4C8E2D2170CD0505FE7B560311DF2C /* R.swift.Library.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 61AC8FF22886EA444144B44F9AC733B8;
+			remoteInfo = R.swift.Library;
+		};
+		67C9DD9C64E9072D418515C0CF7E8C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7067F83F0F6187FFF405E1BCE655F3CC /* Alamofire.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
 			remoteInfo = Alamofire;
 		};
+		9D4FB1F9ED1D31D39F3877CDE2A8785E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09761F4B7CE6CE2CF9FA9A1487BC965D /* RxSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F0179EE061353B7A322F596E97844774;
+			remoteInfo = RxSwift;
+		};
+		C22D91AC6E0245FB64723E7686E8D924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC26768E836A325FD974CCB9F64E0464 /* R.swift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6ED22E1CDAF83ADE98360601DC4DE5;
+			remoteInfo = R.swift;
+		};
+		C66CE91005BB5150AF2E12CF5AD5E9A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C352B91420C2D0F7EA554F19634E71FA /* RxCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5183FBB16A06C1D86620B00CFE6269;
+			remoteInfo = RxCocoa;
+		};
+		C7D2E114A8DAE76EF0F12E7AF3E81A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B76A88545251AF1FF7040D62FBA3FCD /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
+			remoteInfo = SnapKit;
+		};
+		D6A2DFCB159A492A6C70EF26B8254BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29150D42C1EA714DD6B2DAC0ECA5455 /* Differentiator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F291182B2B4D411554E59174A5380856;
+			remoteInfo = Differentiator;
+		};
+		E98E95DD2B4EDCAE9664BA2645B7A004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF4AC3F4F5C9887DA057F04D85EBC1C /* RxDataSources.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A3C6B0D85472E4377BE1104C7E10A6;
+			remoteInfo = RxDataSources;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09761F4B7CE6CE2CF9FA9A1487BC965D /* RxSwift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwift; path = RxSwift.xcodeproj; sourceTree = "<group>"; };
 		0CD88A17738B664A5B2D843C54373705 /* Pods-TBMtimeBaseControll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBMtimeBaseControll-frameworks.sh"; sourceTree = "<group>"; };
 		2DAECC94D61DE3ECE47A240EF1000219 /* Pods-TBMtimeBaseControll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBMtimeBaseControll-dummy.m"; sourceTree = "<group>"; };
 		2DDA778D409F2F83BF8269FAF6A0FC92 /* Pods-TBMtimeBaseControll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBMtimeBaseControll-umbrella.h"; sourceTree = "<group>"; };
 		3E9DCA9DC7FEB5B64422276096E8D637 /* Pods-TBMtimeBaseControll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBMtimeBaseControll-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EC114B603A86F027BD9377A1C068F05 /* RxGesture */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxGesture; path = RxGesture.xcodeproj; sourceTree = "<group>"; };
 		408DF04B6E07FEBCE6A15F8C50930542 /* Pods_TBMtimeBaseControll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBMtimeBaseControll.framework; path = "Pods-TBMtimeBaseControll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4757D496CF7A8790D28D08A47CFC779A /* Pods-TBMtimeBaseControll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBMtimeBaseControll.modulemap"; sourceTree = "<group>"; };
+		4B76A88545251AF1FF7040D62FBA3FCD /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
+		6E4C8E2D2170CD0505FE7B560311DF2C /* R.swift.Library */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = R.swift.Library; path = R.swift.Library.xcodeproj; sourceTree = "<group>"; };
+		7067F83F0F6187FFF405E1BCE655F3CC /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1DCB308550AE64E38BC16D899693FED /* Pods-TBMtimeBaseControll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBMtimeBaseControll-Info.plist"; sourceTree = "<group>"; };
 		B4691A00655D10E04B5955C7944168BD /* Pods-TBMtimeBaseControll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBMtimeBaseControll.release.xcconfig"; sourceTree = "<group>"; };
+		C29150D42C1EA714DD6B2DAC0ECA5455 /* Differentiator */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Differentiator; path = Differentiator.xcodeproj; sourceTree = "<group>"; };
+		C352B91420C2D0F7EA554F19634E71FA /* RxCocoa */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxCocoa; path = RxCocoa.xcodeproj; sourceTree = "<group>"; };
 		D7CF723986D312106ED9F1BCCF2A57AA /* Pods-TBMtimeBaseControll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBMtimeBaseControll.debug.xcconfig"; sourceTree = "<group>"; };
-		E8E51EC61D7F8AD691517CA2FD324514 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
+		E9D66A501587273AA8CC7846B05A0D39 /* RxRelay */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxRelay; path = RxRelay.xcodeproj; sourceTree = "<group>"; };
+		EC26768E836A325FD974CCB9F64E0464 /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = R.swift; path = R.swift.xcodeproj; sourceTree = "<group>"; };
 		F4F39729712FF4E1EE2714893135B72A /* Pods-TBMtimeBaseControll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBMtimeBaseControll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCF4AC3F4F5C9887DA057F04D85EBC1C /* RxDataSources */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxDataSources; path = RxDataSources.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EAD20A2DC9750AD4B754FC5FF75343DC /* Frameworks */ = {
+		6402FE73B4CD9DA9B420448911BAD8B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB52F83B9E717637FABB6954B8DF575 /* Foundation.framework in Frameworks */,
+				65F444061C25900B6FFE6E59FBCBF212 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		51119460ED7CCAB565A1DA7634EFAC61 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E8E51EC61D7F8AD691517CA2FD324514 /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +160,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				51119460ED7CCAB565A1DA7634EFAC61 /* Pods */,
+				DB917DC2AB6FC2A00F40E65E955BEE32 /* Pods */,
 				CB409211C7DB9EB7E1CC295AB3CBBD4F /* Products */,
 				D16D0C0CB9FA640C63A2914E998272D5 /* Targets Support Files */,
 			);
@@ -118,14 +182,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB917DC2AB6FC2A00F40E65E955BEE32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7067F83F0F6187FFF405E1BCE655F3CC /* Alamofire */,
+				C29150D42C1EA714DD6B2DAC0ECA5455 /* Differentiator */,
+				EC26768E836A325FD974CCB9F64E0464 /* R.swift */,
+				6E4C8E2D2170CD0505FE7B560311DF2C /* R.swift.Library */,
+				C352B91420C2D0F7EA554F19634E71FA /* RxCocoa */,
+				FCF4AC3F4F5C9887DA057F04D85EBC1C /* RxDataSources */,
+				3EC114B603A86F027BD9377A1C068F05 /* RxGesture */,
+				E9D66A501587273AA8CC7846B05A0D39 /* RxRelay */,
+				09761F4B7CE6CE2CF9FA9A1487BC965D /* RxSwift */,
+				4B76A88545251AF1FF7040D62FBA3FCD /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FE55B50AB8427C253D805C7F02847A1F /* Headers */ = {
+		A2515CC9938857845561DBC89B3932C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1282DE8D41A0A93388733AC33ACFC8 /* Pods-TBMtimeBaseControll-umbrella.h in Headers */,
+				3D40B5A0493AD57A3F39C214A194AADF /* Pods-TBMtimeBaseControll-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,17 +215,26 @@
 /* Begin PBXNativeTarget section */
 		9840A445B4D5BB2C8D74FDE01313D236 /* Pods-TBMtimeBaseControll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E94F757E862DB6A9A78EE5B0A7D16BC0 /* Build configuration list for PBXNativeTarget "Pods-TBMtimeBaseControll" */;
+			buildConfigurationList = 6E9DFF0102A6A13066FA842A987093B8 /* Build configuration list for PBXNativeTarget "Pods-TBMtimeBaseControll" */;
 			buildPhases = (
-				FE55B50AB8427C253D805C7F02847A1F /* Headers */,
-				29B24B7C0BA25971B9CF54EF3DB9622B /* Sources */,
-				EAD20A2DC9750AD4B754FC5FF75343DC /* Frameworks */,
-				A840E13AD65B9C1EF2B0692BDFD22988 /* Resources */,
+				A2515CC9938857845561DBC89B3932C1 /* Headers */,
+				A4F6FF0CC888F76B66E90AE2B8A35211 /* Sources */,
+				6402FE73B4CD9DA9B420448911BAD8B8 /* Frameworks */,
+				A2F2ECE56172013F06A9B32270B858A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F025EDBACF42E5A457FA4D33F37A8EA4 /* PBXTargetDependency */,
+				DE6D144B24FD6DDD85089526FBA32A34 /* PBXTargetDependency */,
+				6EB89D84A71C82F438811A5CD74CC810 /* PBXTargetDependency */,
+				E82D15CB322E58A8F9A355D86BC815FD /* PBXTargetDependency */,
+				276C3275D3CE23DCE2B307FA09214DA6 /* PBXTargetDependency */,
+				5D959E1355EF8E91EF3842591FFE501A /* PBXTargetDependency */,
+				5C65A296CB1E8720ACA5AD22D2A3C6AF /* PBXTargetDependency */,
+				A9871B76D56103B779F8294FE794B86F /* PBXTargetDependency */,
+				ECE0B689B0F6276E317EBCD24B47F20E /* PBXTargetDependency */,
+				079AD39B5D01EE5B5B484B7FD93D0BD6 /* PBXTargetDependency */,
+				74D5288E52700FFB458F89FD67727FCE /* PBXTargetDependency */,
 			);
 			name = "Pods-TBMtimeBaseControll";
 			productName = "Pods-TBMtimeBaseControll";
@@ -161,7 +251,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -173,7 +263,34 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = E8E51EC61D7F8AD691517CA2FD324514 /* Alamofire */;
+					ProjectRef = 7067F83F0F6187FFF405E1BCE655F3CC /* Alamofire */;
+				},
+				{
+					ProjectRef = C29150D42C1EA714DD6B2DAC0ECA5455 /* Differentiator */;
+				},
+				{
+					ProjectRef = EC26768E836A325FD974CCB9F64E0464 /* R.swift */;
+				},
+				{
+					ProjectRef = 6E4C8E2D2170CD0505FE7B560311DF2C /* R.swift.Library */;
+				},
+				{
+					ProjectRef = C352B91420C2D0F7EA554F19634E71FA /* RxCocoa */;
+				},
+				{
+					ProjectRef = FCF4AC3F4F5C9887DA057F04D85EBC1C /* RxDataSources */;
+				},
+				{
+					ProjectRef = 3EC114B603A86F027BD9377A1C068F05 /* RxGesture */;
+				},
+				{
+					ProjectRef = E9D66A501587273AA8CC7846B05A0D39 /* RxRelay */;
+				},
+				{
+					ProjectRef = 09761F4B7CE6CE2CF9FA9A1487BC965D /* RxSwift */;
+				},
+				{
+					ProjectRef = 4B76A88545251AF1FF7040D62FBA3FCD /* SnapKit */;
 				},
 			);
 			projectRoot = "";
@@ -184,7 +301,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A840E13AD65B9C1EF2B0692BDFD22988 /* Resources */ = {
+		A2F2ECE56172013F06A9B32270B858A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,100 +311,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29B24B7C0BA25971B9CF54EF3DB9622B /* Sources */ = {
+		A4F6FF0CC888F76B66E90AE2B8A35211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B7B37DA305C1B242374C35AF1D7DDDC /* Pods-TBMtimeBaseControll-dummy.m in Sources */,
+				B23B0B9A1565E2FF353BF824A419F68A /* Pods-TBMtimeBaseControll-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F025EDBACF42E5A457FA4D33F37A8EA4 /* PBXTargetDependency */ = {
+		079AD39B5D01EE5B5B484B7FD93D0BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			targetProxy = 9D4FB1F9ED1D31D39F3877CDE2A8785E /* PBXContainerItemProxy */;
+		};
+		276C3275D3CE23DCE2B307FA09214DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift.Library;
+			targetProxy = 5FD39E4BDE0B86DEE958E7B878C0A52D /* PBXContainerItemProxy */;
+		};
+		5C65A296CB1E8720ACA5AD22D2A3C6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxDataSources;
+			targetProxy = E98E95DD2B4EDCAE9664BA2645B7A004 /* PBXContainerItemProxy */;
+		};
+		5D959E1355EF8E91EF3842591FFE501A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxCocoa;
+			targetProxy = C66CE91005BB5150AF2E12CF5AD5E9A8 /* PBXContainerItemProxy */;
+		};
+		6EB89D84A71C82F438811A5CD74CC810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Differentiator;
+			targetProxy = D6A2DFCB159A492A6C70EF26B8254BAA /* PBXContainerItemProxy */;
+		};
+		74D5288E52700FFB458F89FD67727FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			targetProxy = C7D2E114A8DAE76EF0F12E7AF3E81A98 /* PBXContainerItemProxy */;
+		};
+		A9871B76D56103B779F8294FE794B86F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxGesture;
+			targetProxy = 1C9C87F89FB9DBD061D2DC08426A3E62 /* PBXContainerItemProxy */;
+		};
+		DE6D144B24FD6DDD85089526FBA32A34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
-			targetProxy = 48E2F9CEF459E7058A3E175773067A3B /* PBXContainerItemProxy */;
+			targetProxy = 67C9DD9C64E9072D418515C0CF7E8C78 /* PBXContainerItemProxy */;
+		};
+		E82D15CB322E58A8F9A355D86BC815FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = R.swift;
+			targetProxy = C22D91AC6E0245FB64723E7686E8D924 /* PBXContainerItemProxy */;
+		};
+		ECE0B689B0F6276E317EBCD24B47F20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxRelay;
+			targetProxy = 08C2E43C96B78928C923378208489309 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0003D27B144CBD624B26BD843513B48F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7CF723986D312106ED9F1BCCF2A57AA /* Pods-TBMtimeBaseControll.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1DA3B61B9023E2E5ADBD68BAEC0817DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4691A00655D10E04B5955C7944168BD /* Pods-TBMtimeBaseControll.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -416,6 +503,81 @@
 			};
 			name = Debug;
 		};
+		C498F9996CA8F680C36CE01696642097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4691A00655D10E04B5955C7944168BD /* Pods-TBMtimeBaseControll.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4BE6B10644FF91270C036A88E92A80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CF723986D312106ED9F1BCCF2A57AA /* Pods-TBMtimeBaseControll.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBMtimeBaseControll/Pods-TBMtimeBaseControll.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -428,11 +590,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E94F757E862DB6A9A78EE5B0A7D16BC0 /* Build configuration list for PBXNativeTarget "Pods-TBMtimeBaseControll" */ = {
+		6E9DFF0102A6A13066FA842A987093B8 /* Build configuration list for PBXNativeTarget "Pods-TBMtimeBaseControll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0003D27B144CBD624B26BD843513B48F /* Debug */,
-				1DA3B61B9023E2E5ADBD68BAEC0817DC /* Release */,
+				C4BE6B10644FF91270C036A88E92A80A /* Debug */,
+				C498F9996CA8F680C36CE01696642097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

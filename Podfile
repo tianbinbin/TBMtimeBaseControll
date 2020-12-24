@@ -9,5 +9,12 @@ use_frameworks!
 target 'TBMtimeBaseControll' do
 
   pod 'Alamofire', '5.2.1'	
+  pod 'R.swift', '5.2.2'
+  pod 'RxSwift', '5.1.1'
+  pod 'RxCocoa', '5.1.1'
+  pod 'RxDataSources', '4.0.1'
+  pod 'RxGesture', '3.0.2'
+  pod 'SnapKit', '5.0.1'
+
 
 end

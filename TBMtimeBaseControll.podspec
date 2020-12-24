@@ -54,7 +54,12 @@ Pod::Spec.new do |spec|
 
   # 当前项目所依赖的第三方库 都需要对外暴露
   spec.dependency "Alamofire", "5.2.1"
-  #spec.dependency "Kingfisher", "5.14.0"
+  spec.dependency "R.swift", "5.2.2"
+  spec.dependency "RxSwift", "5.1.1"
+  spec.dependency "RxCocoa", "5.1.1"
+  spec.dependency "RxDataSources", "4.0.1"
+  spec.dependency "RxGesture", "3.0.2"
+  spec.dependency "SnapKit", "5.0.1"
 
 end
 
