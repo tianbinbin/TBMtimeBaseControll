@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0853388E259AD16000475EF5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0853388D259AD15F00475EF5 /* R.generated.swift */; };
 		08544F34259190DF00E22902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08544F33259190DF00E22902 /* AppDelegate.swift */; };
 		08544F38259190DF00E22902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08544F37259190DF00E22902 /* ViewController.swift */; };
 		08544F3B259190DF00E22902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08544F39259190DF00E22902 /* Main.storyboard */; };
@@ -48,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0853388D259AD15F00475EF5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		08544F30259190DF00E22902 /* TBMtimeBaseControll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBMtimeBaseControll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08544F33259190DF00E22902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08544F37259190DF00E22902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 				0854512E2591C7C400E22902 /* Common */,
 				0854512C2591C7C400E22902 /* Exclude */,
 				08544F33259190DF00E22902 /* AppDelegate.swift */,
-				0853388D259AD15F00475EF5 /* R.generated.swift */,
 				08544F37259190DF00E22902 /* ViewController.swift */,
 				08544F39259190DF00E22902 /* Main.storyboard */,
 				08544F3F259190E000E22902 /* Assets.xcassets */,
@@ -447,7 +444,6 @@
 				08544F34259190DF00E22902 /* AppDelegate.swift in Sources */,
 				0854526F2591E28100E22902 /* MNFDemoStoryBoardVC.swift in Sources */,
 				085452352591DB3900E22902 /* MNFBaseViewController.swift in Sources */,
-				0853388E259AD16000475EF5 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
