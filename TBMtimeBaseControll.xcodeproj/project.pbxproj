@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084120B5259B0FE400F09646 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084120B4259B0FE400F09646 /* R.generated.swift */; };
 		08544F34259190DF00E22902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08544F33259190DF00E22902 /* AppDelegate.swift */; };
 		08544F38259190DF00E22902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08544F37259190DF00E22902 /* ViewController.swift */; };
-		08544F3B259190DF00E22902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08544F39259190DF00E22902 /* Main.storyboard */; };
 		08544F3E259190DF00E22902 /* TBMtimeBaseControll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08544F3C259190DF00E22902 /* TBMtimeBaseControll.xcdatamodeld */; };
 		08544F40259190E000E22902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08544F3F259190E000E22902 /* Assets.xcassets */; };
 		08544F43259190E000E22902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08544F41259190E000E22902 /* LaunchScreen.storyboard */; };
@@ -47,10 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		084120B4259B0FE400F09646 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		08544F30259190DF00E22902 /* TBMtimeBaseControll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBMtimeBaseControll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08544F33259190DF00E22902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08544F37259190DF00E22902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08544F3A259190DF00E22902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08544F3D259190DF00E22902 /* TBMtimeBaseControll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TBMtimeBaseControll.xcdatamodel; sourceTree = "<group>"; };
 		08544F3F259190E000E22902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08544F42259190E000E22902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 				0854512C2591C7C400E22902 /* Exclude */,
 				08544F33259190DF00E22902 /* AppDelegate.swift */,
 				08544F37259190DF00E22902 /* ViewController.swift */,
-				08544F39259190DF00E22902 /* Main.storyboard */,
+				084120B4259B0FE400F09646 /* R.generated.swift */,
 				08544F3F259190E000E22902 /* Assets.xcassets */,
 				08544F41259190E000E22902 /* LaunchScreen.storyboard */,
 				08544F44259190E000E22902 /* Info.plist */,
@@ -266,6 +266,7 @@
 				08544F2D259190DF00E22902 /* Frameworks */,
 				08544F2E259190DF00E22902 /* Resources */,
 				F35EC71260D7C31F085B29E4 /* [CP] Embed Pods Frameworks */,
+				08412097259B0ED300F09646 /* R.swift */,
 			);
 			buildRules = (
 			);
@@ -364,7 +365,6 @@
 				085452E82591E6DB00E22902 /* shanghai@3x.png in Resources */,
 				08544F43259190E000E22902 /* LaunchScreen.storyboard in Resources */,
 				08544F40259190E000E22902 /* Assets.xcassets in Resources */,
-				08544F3B259190DF00E22902 /* Main.storyboard in Resources */,
 				085452672591E24100E22902 /* Demo.storyboard in Resources */,
 				085452E92591E6DB00E22902 /* shanghai@2x.png in Resources */,
 			);
@@ -387,6 +387,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		08412097259B0ED300F09646 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/TBMtimeBaseControll/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/TBMtimeBaseControll/R.generated.swift\"\nsed -i '' -e \"s/Bundle(for: R.Class.self)/Bundle.baseControll/g\" \"$SRCROOT/TBMtimeBaseControll/R.generated.swift\"\n";
+		};
 		BAF2847E8AF2D85B71102C34 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,6 +464,7 @@
 				08544F34259190DF00E22902 /* AppDelegate.swift in Sources */,
 				0854526F2591E28100E22902 /* MNFDemoStoryBoardVC.swift in Sources */,
 				085452352591DB3900E22902 /* MNFBaseViewController.swift in Sources */,
+				084120B5259B0FE400F09646 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,14 +498,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08544F39259190DF00E22902 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08544F3A259190DF00E22902 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		08544F41259190E000E22902 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
