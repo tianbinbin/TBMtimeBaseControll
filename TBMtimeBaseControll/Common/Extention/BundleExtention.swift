@@ -7,7 +7,22 @@
 
 import Foundation
 
+open class BaseBundleStruct {
+    
+}
+
+
 extension Bundle {
+    
+    /// 返回框架 bundle 对象
+    public static var Base: Bundle {
+        if let path = Bundle(for: BaseBundleStruct.self).path(forResource: "TBMtimeBaseControll", ofType: "bundle") {
+            return Bundle(path: path)!
+        }
+        
+        return Bundle.main
+    }
+    
     private struct AssociatedKeys {
         static var common = "Bundle.common"
         static var baseControll = "Bundle.baseControll"
