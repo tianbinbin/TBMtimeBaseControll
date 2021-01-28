@@ -16,16 +16,11 @@ open class MTBViewController:UIViewController {
    
     open override func viewDidLoad() {
 
-        configVCUnderlyingInformation()
     }
 }
 
 extension MTBViewController {
-    
-    ///1、0  VC基础配置信息
-    open func configVCUnderlyingInformation() {
-        self.view.backgroundColor = .green
-    }
+
 }
 
 
